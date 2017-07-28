@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-head">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand"> Æmilia Lanyer </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"> </span>  Home</a></li>
+        <li><a href="poetry.html"><span class="glyphicon glyphicon-book">  </span> Poetry</a></li>
+        <li><a href="resources.html"><span class="glyphicon glyphicon-bookmark"> </span> Resources</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="fluid content">
+        <p>
+    Æmilia Lanyer is an underrated poet from the Renaissance. This is a website about her.
+        </p>
+        <img src="images/lanyer.jpg" class="img-responsive img-circle" alt="painting of Æmilia Lanyer">
+        <p> Want to make your own version of an Æmilia Lanyer poem?</p>
+        
+
+        <p>Enter a noun:</p>
+        <input type="text" id="noun-1">
+        <p>Enter a verb (past tense, singular):</p>
+        <input type="text" id="verb-1">
+        <p>Enter an adjective:</p>
+        <input type="text" id="adjective-1">
+        <p> Enter a noun:</p>
+        <input type="text" id="noun-2">
+        <p> Enter a verb (present tense, 2nd person): </p>
+        <input type="text" id="verb-2">
+        <p> Enter a noun: </p>
+        <input type="text" id="noun-3">
+        <p> Enter a noun: </p>
+        <input type="text" id="noun-4">
+        <p> Enter a plural noun: </p>
+        <input type="text" id="noun-5"> 
+        <button id="create-story">Create Story!</button>
+        <p id="story"></p>
+        
+        
+        
+        
+        <div id="madlibs">
+
+    <p>
+        Great learned <span id="noun-1-place">Ladie</span> whom I long haue knowne,<br>
+        And yet not known so much as I <span id="verb-1-place">desired </span>: <br>
+        Rare <span id="noun-2-place">Phoenix</span>, whose 
+        <span id="adjective-1-place">faire</span> feathers are your owne,<br>
+        With which you <span id="verb-2-place">flie</span>, and are so much admired: <br>
+        True <span id="noun-3-place">honour</span> whom true Fame hath so attired,<br>
+        In glittering <span id="noun-4-place">raiment</span> shining much more bright,<br>
+        Than siluer <span id="noun-5-place">Starres</span> in the most frostie night.</br>
+    </p>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</div>
+    </div>
+    </body>
+</html>

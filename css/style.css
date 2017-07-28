@@ -1,0 +1,68 @@
+body {
+    padding-top: 10px;
+    font-size: 16px;
+    background-color: #84828F;
+    margin: 0;
+}
+
+h1 {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+}
+
+h2 {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+}
+
+.pad-me {
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #32746D;
+    font-family: Garamond, Cambria, sans-serif; 
+}
+.navbar-brand {
+    color: #960200; 
+    font-family: Garamond, Cambria, sans-serif; 
+}
+.navbar .navbar-nav > li > a {
+    color: #960200;
+    font-family: Garamond, Cambria, sans-serif; 
+}
+
+.navbar-head:hover {
+    color: #960200 !important;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color:   #9d9d9d !important;
+}
+
+.navbar .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #84828F;
+    color: #303A2B;
+    font-family: Garamond, Cambria, sans-serif; 
+}
+
+.navbar-brand {
+ font-family:  Garamond, Cambria, sans-serif; 
+ cursor: default !important;
+}
+
+a {
+    color: #960200;
+}
+
+.margin-bottom-sm {
+    margin-bottom: 10px;
+}
+
+pre {
+    font-family: Garamond, serif;
+    font-size: medium;
+}
+
+.content {
+    padding: 15px;
+    
+}
